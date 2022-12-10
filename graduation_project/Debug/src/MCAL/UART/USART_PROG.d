@@ -1,0 +1,18 @@
+src/MCAL/UART/USART_PROG.o: ../src/MCAL/UART/USART_PROG.c \
+ ../src/MCAL/UART/../../00-LIB/STD_TYPES.h \
+ ../src/MCAL/UART/../../00-LIB/BIT_MATH.h \
+ ../src/MCAL/UART/../GPIO/GPIO_Interface.h \
+ ../src/MCAL/UART/USART_INTERFACE.h ../src/MCAL/UART/USART_CONFIG.h \
+ ../src/MCAL/UART/USART_REG.h
+
+../src/MCAL/UART/../../00-LIB/STD_TYPES.h:
+
+../src/MCAL/UART/../../00-LIB/BIT_MATH.h:
+
+../src/MCAL/UART/../GPIO/GPIO_Interface.h:
+
+../src/MCAL/UART/USART_INTERFACE.h:
+
+../src/MCAL/UART/USART_CONFIG.h:
+
+../src/MCAL/UART/USART_REG.h:
